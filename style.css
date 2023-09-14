@@ -6,7 +6,13 @@
 body {
     font-family: 'Inter';
     height: 100vh;
-    background: #eee;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,12 +23,42 @@ form{
     padding: 60px;
     width: 500px;
     max-width: calc(100%-60px);
+    border-radius: 8px;
 }
 .form-element {
 display: flex;
 flex-direction: column;
-margin-bottom: 30px;
+margin-bottom: 20px;
 }
 .form-element span {
     margin-bottom: 10px;
 }
+input, textarea {
+    border: 1px solid #eee;
+    line-height: 2;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+form button {
+    width:100%;
+    padding 20px;
+    color: White;
+    background: #EA088C;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    height: 40px;
+
+}
+.header-image {
+    background-image: url(“Desifaves_logo.png”);
+    }
+
+    h1 {
+        font-size: 14px;
+        line-height: 30px;
+        color: #333;
+      }
+
+    
